@@ -18,6 +18,8 @@
 		BC788C9C21CE04BA00B9AB63 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC788C9721CE04BA00B9AB63 /* RxCocoa.framework */; };
 		BC788C9D21CE04BA00B9AB63 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC788C9821CE04BA00B9AB63 /* RxBlocking.framework */; };
 		BC788C9E21CE04BA00B9AB63 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC788C9921CE04BA00B9AB63 /* RxSwift.framework */; };
+		BC788CAC21CE1D9100B9AB63 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BC788CAB21CE1D9100B9AB63 /* README.md */; };
+		BC788CAE21CE1D9900B9AB63 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = BC788CAD21CE1D9900B9AB63 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		BC788C9721CE04BA00B9AB63 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		BC788C9821CE04BA00B9AB63 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		BC788C9921CE04BA00B9AB63 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		BC788CAB21CE1D9100B9AB63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC788CAD21CE1D9900B9AB63 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		BC788C5B21CDF60C00B9AB63 = {
 			isa = PBXGroup;
 			children = (
+				BC788CAB21CE1D9100B9AB63 /* README.md */,
+				BC788CAD21CE1D9900B9AB63 /* Cartfile */,
 				BC788C6621CDF60C00B9AB63 /* JWSCarthageSample */,
 				BC788C7B21CDF60F00B9AB63 /* JWSCarthageSampleTests */,
 				BC788C8621CDF60F00B9AB63 /* JWSCarthageSampleUITests */,
@@ -254,8 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC788CAE21CE1D9900B9AB63 /* Cartfile in Resources */,
 				BC788C7221CDF60F00B9AB63 /* LaunchScreen.storyboard in Resources */,
 				BC788C6F21CDF60F00B9AB63 /* Assets.xcassets in Resources */,
+				BC788CAC21CE1D9100B9AB63 /* README.md in Resources */,
 				BC788C6D21CDF60C00B9AB63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

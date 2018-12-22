@@ -2,7 +2,7 @@
 //  JWSCarthageSampleUITests.swift
 //  JWSCarthageSampleUITests
 //
-//  Created by Jang Wangsu on 22/12/2018.
+//  Created by Clint Jang on 22/12/2018.
 //  Copyright © 2018 ClintJang. All rights reserved.
 //
 

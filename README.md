@@ -5,6 +5,7 @@ iOS 라이브러리 관리도구인 Carthage 를 적용해본 샘플입니다. <
 # [Cartage(카르타고) 사용 설명 링크](https://medium.com/@jang.wangsu/ios-swift-%EC%B9%B4%EB%A5%B4%ED%83%80%EA%B3%A0-carthage-%EB%9E%80-%EC%82%AC%EC%9A%A9%EB%B2%95%EC%9D%80-%EC%98%88%EC%A0%9C-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0%EA%B9%8C%EC%A7%80-127e71fdd253)
 > 미디엄에 카르타고 설정 방법을 설명한 링크를 작성해 두었습니다.<br />
 자세한 설명은 링크를 참고해주세요.
+- [https://medium.com/@jang.wangsu/ios-swift-카르타고-Carthage-란-사용법은-예제-따라하기까지-127e71fdd253](https://medium.com/@jang.wangsu/ios-swift-카르타고-Carthage-란-사용법은-예제-따라하기까지-127e71fdd253)
 
 # 실행시 참고 사항
 ## Brew 

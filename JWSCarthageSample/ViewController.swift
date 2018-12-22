@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
+import RxSwift      // 추가한 라이브러리
+import RxCocoa      // 추가한 라이브러리
 
 class ViewController: UIViewController {
 
@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         testButton.rx.tap
             .subscribe(onNext:{ [weak self] _ in
                 guard let self = self else { return }
@@ -27,7 +26,5 @@ class ViewController: UIViewController {
             .disposed(by:disposeBag)
         
     }
-
-
 }
 
